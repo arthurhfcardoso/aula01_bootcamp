@@ -18,7 +18,7 @@ do salario em comparacao com o bonus recebido.
    Considere que este valor pode ser um numero decimal.
 3. Depois, o programa deve solicitar a porcentagem do bonus recebido pelo usuario,
    que tambem pode ser um numero decimal.
-4. O calculo do KPI do bonus de 2024 e de `1000 + salario * bonus`.
+4. O calculo do KPI do bonus de 2026 e de `1000 + salario * bonus`.
 5. Finalmente, o programa deve imprimir uma mensagem no seguinte formato:
    "Ola [nome], o seu valor bonus foi de 5000".
 6. Salve esse script python como `kpi.py`.
