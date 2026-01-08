@@ -26,6 +26,6 @@ def brl(valor):
     return f"R$ {valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 print(
-    f"Ola {nome}, seu salario e {brl(salario)}, "
-    f"o bonus foi {bonus_percentual:.1f}% e o KPI foi {brl(kpi_bonus)}"
+    f"Salario informado {brl(salario)}, bonus informado {bonus_percentual:.1f}%."
 )
+print(f"Ola {nome}, o seu bonus foi de {brl(kpi_bonus)}")
